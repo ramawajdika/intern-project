@@ -1,0 +1,41 @@
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black !important;
+}
+
+@media only screen and (max-width: 1136px) {
+  .nav-link {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.nav-link #login {
+  margin-right: 0;
+}
+
+.header-brand {
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  margin-left: 2vw;
+}
+
+#try-button {
+  font-weight: bold;
+  padding-top: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 12px;
+  margin-right: 3vw;
+}
+
+#login {
+  border-left: 10px !important;
+  border-color: grey;
+  font-weight: bold;
+}
+
+.vl {
+  border-left: 1px solid rgb(202, 209, 208);
+}

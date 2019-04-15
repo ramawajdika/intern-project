@@ -1,0 +1,55 @@
+body,
+html {
+  font-family: Fira Sans, Arial, sans-serif;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../assets/bg.png");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -99;
+}
+
+.content {
+  text-align: center;
+}
+
+.amount {
+  color: #3db1ef;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+#header {
+  font-weight: bold;
+  font-size: 4em;
+  color: #15395d;
+}
+
+.plus {
+  color: #15395d;
+}
+
+.info {
+  color: #15395d;
+  font-size: 1.5em;
+}
+
+.case {
+  padding-top: 20vh;
+}
+
+.content-number {
+  margin-top: 8vh;
+}
