@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
-import './App.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import LandingPage from './components/LandingPage';
+import React, { Component } from "react";
+import "./App.css";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import LandingPage from "./components/LandingPage";
 import Navbar from "./components/Navigation";
 
 class App extends Component {
   render() {
     return (
-        <Router>
+      <Router>
         <Navbar />
         <div>
-          <Route exact path="/" component={LandingPage}/>
+          <Route exact path="/intern-project/" component={LandingPage} />
         </div>
       </Router>
     );
